@@ -8,12 +8,12 @@
 # usage: ./db-restore.sh
 
 # VARS
-backupsfolder=~/Bureau/restore # backups folder
-logfile=~/Bureau/file.log # log file
+backupsfolder=~/path/to/backups/folder # backups folder
+logfile=~/path/to/log/file.log # log file
 
-host=localhost # host
-db=comus_party # db name
-user=root # username
+host=host_address # host
+db=db_name # db name
+user=user # username
 
 current_date=$(date +%Y-%m-%d_%H-%M-%S) # date
 
